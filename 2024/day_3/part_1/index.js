@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 async function readInput() {
-    const inputStr = fs.readFileSync('../input.txt', 'utf-8')
+    const inputStr = fs.readFileSync('./day_3/input.txt', 'utf-8')
     return inputStr
 }
 

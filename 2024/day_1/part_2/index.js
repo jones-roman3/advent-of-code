@@ -15,7 +15,7 @@
 import * as fs from 'fs';
 
 async function readInput(input) {
-    const inputStr = fs.readFileSync('../input.txt', 'utf-8');
+    const inputStr = fs.readFileSync('./day_1/input.txt', 'utf-8');
     return inputStr.split('\n').reduce((lists, val) => {
         const vals = val.split('   ')
         lists.list_1.push(vals[0])

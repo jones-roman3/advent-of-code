@@ -33,7 +33,7 @@ function isReportSafe(report) {
 }
 
 async function main() {
-    const reports = await readInput('../input.txt')
+    const reports = await readInput('./day_2/input.txt')
 
     const count = reports.reduce((safeReportsCount, report) => {
         if (isReportSafe(report)) {
